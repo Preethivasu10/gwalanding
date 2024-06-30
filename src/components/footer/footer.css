@@ -1,0 +1,164 @@
+/* Base Styles */
+.footer-container {
+  width: 100%;
+  max-width: 1440px;
+  height: 306px;
+  padding: 60px 503.36px 60px 503.36px;
+  gap: 0px;
+  opacity: 0px;
+  ;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text within the container */
+  background-color: #DBE8FF;
+  font-family: 'matter', sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+body {
+  font-family: 'matter', sans-serif;
+}
+
+
+
+.footer-containers {
+  background-color: #F4F7FC;
+  display: flex;
+  justify-content: center; /* Center the entire footer horizontally */
+}
+
+.text-container {
+  margin-bottom: 20px; /* Space below the text */
+}
+.parawe{
+  
+
+ color:#0E0E0E;
+
+}
+
+.header {
+  color: #0167FF;
+  font-size: 24px;
+  margin-bottom: 10px; /* Adjust spacing below header */
+}
+
+.footer-container p {
+  width: 433.29px;
+height: 35px;
+gap: 0px;
+opacity: 1px;
+
+  font-family: 'matter', sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.email-container {
+  display: flex;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.email-box {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 358px; /* Fixed width for email input */
+  height: 56px;
+  margin-bottom: 10px; /* Space below input for smaller screens */
+}
+
+.email-button {
+  width: 56px;
+  height: 56px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.email-button .fa-envelope {
+  font-size: 16px;
+}
+
+/* .email-button:hover {
+  background-color: darkblue;
+} */
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .footer-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .email-box {
+    width: 100%; /* Make email input full width on smaller screens */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .email-button {
+    width: 100%; /* Make button full width on smaller screens */
+    border-radius: 0 0 4px 4px; /* Adjust border-radius for button */
+  }
+
+  .email-container {
+    flex-direction: row; /* Keep email input and button in the same line */
+    align-items: center; /* Center items horizontally */
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    font-size: 20px; /* Decrease font size for header on smaller screens */
+  }
+
+  .footer-container p {
+    font-size: 14px; /* Decrease font size for paragraph on smaller screens */
+  }
+
+  .email-box {
+    width: calc(100% - 66px); /* Adjust width to keep input and button in the same line */
+    margin-bottom: 0; /* Remove margin-bottom to keep input and button aligned */
+  }
+
+  .email-button {
+    width: 56px; /* Keep button width fixed */
+    border-radius: 0 4px 4px 0; /* Adjust border-radius for button */
+    margin-bottom: 0; /* Remove margin-bottom to keep input and button aligned */
+  }
+
+  .email-container {
+    flex-direction: row; /* Keep email input and button in the same line */
+    align-items: center; /* Center items horizontally */
+  }
+}
+@media (max-width: 2560px) {
+  .footer-container {
+    width: 100%;
+max-width: 100%;
+    
+  }
+
+}
+@media (min-width: 3840px) {
+  .footer-container {
+    width: 100%;
+max-width: 100%;
+    
+  }
+
+}
